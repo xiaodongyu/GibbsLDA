@@ -1,0 +1,37 @@
+Xiaodong Yu
+A Matlab demo of Gibbs sampling for LDA learning
+2009.08.30
+
+learn_GibbsLDA.m implements the function to learn LDA parameters using Gibbs sampling
+The equations of the conditional posterior is based on the technical note by Yi Wang,
+"Gibbs Sampling and Latent Diriclet Allocation: The Gritty Details ", 
+available from http://dbgroup.cs.tsinghua.edu.cn/wangyi/lda/index.html
+
+gen_images.m contains the codes to generate the graphical example as in the paper
+"Finding scientific topics" by T. L. Griffiths and M. Steyvers, 2004.
+
+dirrnd.m implements the sampling from a Dirichlet distribution.
+
+run_GibbsLDA.m is main code to call to run the demo.
+
+
+=====================================================
+COPYRIGHT / LICENSE
+=====================================================
+All code was written by Xiaodong Yu, and is copyrighted under the
+(lesser) GPL:  Copyright (C) 2009  Xiaodong Yu
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; version 2.1 or later.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+The authors may be contacted via email at: xdyu at umiacs umd edu
